@@ -1,4 +1,4 @@
-# Tuesday
+# Week 1 - Tuesday
 **Date:** January 22, 2026  
 **Time Spent:** 3 hours  
 **Status:** ✅ Complete
