@@ -7,11 +7,53 @@
 
 ---
 
-## 👋 About This Journey
+## 📖 About This Journey
 
-I'm learning to become a Product Manager with technical skills through AI-assisted development. This repository documents my entire 12-week journey from fundamentals to shipping real products.
+### How This Course Was Created
 
-This is a **public learning journey** - all work is documented transparently to show growth from beginner to competent PM/Developer.
+This learning journey is unique - **it was designed collaboratively with AI (Claude)** through an iterative, personalized process.
+
+**The Creation Process:**
+
+1. **Initial Assessment** - I shared my background as a Product Manager with no coding experience
+2. **Goal Setting** - Defined objective: become a PM who can build and prototype ideas
+3. **Curriculum Design** - Claude designed a 12-week structured program balancing PM skills and technical development
+4. **Personalization** - Course adapted to my learning style, pace, and real-world context (UTS digital learning ecosystem)
+5. **Continuous Refinement** - Learning approach evolved based on my feedback (smaller chunks, integrated resources, enrichment materials)
+
+**What Makes This Different:**
+
+- ✅ **Tailored Curriculum** - Every lesson designed specifically for my goals and background
+- ✅ **Real-World Context** - Connected to my work at UTS and Product Management experience
+- ✅ **Adaptive Learning** - Course structure adjusted based on my feedback (e.g., smaller lesson chunks)
+- ✅ **Enriched Content** - LinkedIn Learning courses and resources integrated at optimal points
+- ✅ **Hands-On Projects** - Practical work from day one (AI-generated code, tested calculator, open source contribution)
+- ✅ **Documentation-First** - Learning logs document both successes and challenges
+- ✅ **AI-Assisted Development** - Learning to use AI tools (Claude, Cursor) as development partners
+
+**The Result:**
+
+A comprehensive, practical course that bridges Product Management and software development - something that didn't exist as a packaged offering. This repository serves as both my learning documentation and a potential template for others on similar journeys.
+
+### Course Philosophy
+
+**Learning by Doing** - Theory is minimal; practice is everything. Every concept is immediately applied.
+
+**Progressive Complexity** - Start with fundamentals (Git, testing) before advancing to frameworks (React, databases).
+
+**Professional Standards** - Learn industry best practices from the start (version control, testing, documentation).
+
+**AI as a Tool** - Embrace AI assistance while understanding what's happening under the hood.
+
+**Portfolio Building** - Every project contributes to a public portfolio demonstrating real skills.
+
+### My Background
+
+- **Role:** Product Manager at UTS (University of Technology Sydney)
+- **Focus:** Digital learning ecosystem management
+- **Experience:** Product ownership, stakeholder management, user research
+- **Coding Background:** None (starting from zero)
+- **Goal:** Bridge the gap between product vision and technical execution
 
 ---
 
