@@ -260,4 +260,117 @@ const { add, subtract } = require('./calculator');
 
 ---
 
+---
+
+## 📺 LinkedIn Learning: TDD Course
+
+**Course:** JavaScript: Test-Driven Development (ES6)  
+**Sections Watched:** TDD Basics + Writing Unit Tests  
+**Time:** 28 minutes  
+**Link:** https://www.linkedin.com/learning/javascript-test-driven-development-es6
+
+### What I Learned
+
+**Test-Driven Development (TDD) Approach:**
+- Write tests BEFORE writing code (opposite of what I knew!)
+- Red-Green-Refactor cycle:
+  1. **Red:** Write a failing test
+  2. **Green:** Write minimum code to pass
+  3. **Refactor:** Improve code while keeping tests passing
+- This ensures code is testable from the start
+
+**Professional Testing Frameworks:**
+- Jest - Facebook's testing framework (industry standard)
+- Mocha - Alternative testing framework
+- These provide more features than my custom test helper
+- Will learn Jest in upcoming lessons
+
+**Types of Tests (Reinforced):**
+- **Unit tests:** Test individual functions (what I built!)
+- **Integration tests:** Test multiple components together
+- **End-to-end tests:** Test complete user workflows
+- TDD works best with unit tests
+
+### Key Takeaways
+
+**Biggest Insight:**
+TDD can improve code confidence and save developers time in the future. It helps developers test and enhance code features as the code becomes more complicated, and potentially as comments become outdated to the updated code.
+
+**Product Management Perspective:**
+As a Product Owner and manager of the digital learning ecosystem at UTS, I know we do testing AFTER the product has been developed. TDD flips this - you test FIRST, then build. This is a fundamental shift in approach.
+
+**This means:**
+- Fewer bugs in production
+- Code is designed to be testable
+- Easier to add features without breaking existing code
+- Tests serve as living documentation (unlike comments that get outdated)
+
+### What Made Sense
+
+**Red-Green-Refactor Cycle:**
+This workflow clicked immediately:
+1. Write test for feature you want
+2. See it fail (red)
+3. Write code to make it pass (green)
+4. Clean up code (refactor)
+5. Repeat
+
+**Test Structure:**
+The pattern I built matches professional standards:
+- Arrange (set up)
+- Act (execute function)
+- Assert (check result)
+
+This is exactly what `expect(add(2, 3)).toBe(5)` does!
+
+### What Surprised Me
+
+**TDD is Backwards from What I Knew:**
+In product development at UTS:
+- Build feature → Test feature → Deploy
+  
+With TDD:
+- Write test → Build feature → Verify → Deploy
+
+**Benefits I Hadn't Considered:**
+- Tests prevent regression (breaking old features when adding new ones)
+- Code is naturally more modular (easier to test = better design)
+- Confidence to refactor without fear
+- Tests document how code should behave
+
+### Connection to My Work
+
+**At UTS:**
+- We test learning platforms after development
+- Sometimes discover issues late in process
+- Changes can be risky (might break existing features)
+
+**With TDD:**
+- Would catch issues immediately
+- Safe to make changes (tests verify nothing broke)
+- Better quality from the start
+- Less time fixing bugs later
+
+### Next Learning Goals
+
+**Need to Learn:**
+- How to use npm for testing (not just `node file.js`)
+- Jest framework features (mocking, coverage, watch mode)
+- When TDD makes sense vs when it doesn't
+- Testing more complex code (async, APIs, databases)
+
+**Questions for Future:**
+- How do you write tests for UI/frontend?
+- What about testing external services?
+- How much time does TDD actually save?
+- How to convince teams to adopt TDD?
+
+### Confidence Check
+
+**Before TDD Course:** Understood testing basics - 8/10  
+**After TDD Course:** Understand professional TDD workflow - 9/10  
+**Ready to:** Use testing frameworks like Jest and apply TDD in practice
+
+---
+
 **End of Tuesday - Testing Foundations Solid!** 🎉
