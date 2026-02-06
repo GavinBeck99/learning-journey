@@ -49,7 +49,7 @@ A comprehensive, practical course that bridges Product Management and software d
 
 ### My Background
 
-- **Role:** Product Manager at UTS (University of Technology Sydney)
+- **Role:** Manager of DLE Strategy at UTS (University of Technology Sydney)
 - **Focus:** Digital learning ecosystem management
 - **Experience:** Product ownership, stakeholder management, user research
 - **Coding Background:** None (starting from zero)
