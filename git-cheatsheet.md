@@ -12,25 +12,7 @@
 2. Install with defaults
 3. Verify: `git --version`
 
-### Configure Git (First time only)
-```bash
-git config --global user.name "Gavin Beck"
-git config --global user.email "biaandgav@gmail.com"
-```
-
 ### Setup SSH Keys (First time only)
-
-**Generate SSH key:**
-```bash
-ssh-keygen -t ed25519 -C "biaandgav@gmail.com"
-# Press Enter for default location
-# Press Enter twice for no passphrase
-```
-
-**Copy public key (Windows):**
-```bash
-type C:\Users\166308\.ssh\id_ed25519.pub
-```
 
 **Add to GitHub:**
 1. Go to GitHub → Settings → SSH and GPG keys
