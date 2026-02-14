@@ -49,7 +49,7 @@ A comprehensive, practical course that bridges Product Management and software d
 
 ### My Background
 
-- **Role:** Product Manager at UTS (University of Technology Sydney)
+- **Role:** Academic; Researcher
 - **Focus:** Digital learning ecosystem management
 - **Experience:** Product ownership, stakeholder management, user research
 - **Coding Background:** None (starting from zero)
@@ -200,14 +200,6 @@ A comprehensive, practical course that bridges Product Management and software d
 - Accessibility should be built into components from the start
 - Simpler prompts often work better than complex ones
 - Environment setup is the hardest part - gets easier from here!
-
----
-
-## 🔗 Connect With Me
-
-- **GitHub:** [GavinBeck99](https://github.com/GavinBeck99)
-- **Email:** biaandgav@gmail.com
-- **This Repository:** [learning-journey](https://github.com/GavinBeck99/learning-journey)
 
 ---
 
