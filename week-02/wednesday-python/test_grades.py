@@ -28,3 +28,4 @@ def test_get_letter_grade_hd_boundary():
     assert get_letter_grade(50) == "P"
     assert get_letter_grade(49) == "F"
 
+    assert count_passing([45, 23, 88, 62], 50) == 2
