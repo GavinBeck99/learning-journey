@@ -36,3 +36,4 @@ def test_calculate_average_empty_list():
 def test_find_highest_grade_empty_list():
     with pytest.raises(ValueError):
         find_highest_grade([])
+    assert count_passing([45, 23, 88, 62], 50) == 2
