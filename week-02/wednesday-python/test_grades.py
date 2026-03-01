@@ -28,4 +28,12 @@ def test_get_letter_grade_hd_boundary():
     assert get_letter_grade(50) == "P"
     assert get_letter_grade(49) == "F"
 
+# Error/edge case tests
+def test_calculate_average_empty_list():
+    with pytest.raises(ZeroDivisionError):
+        calculate_average([])
+
+def test_find_highest_grade_empty_list():
+    with pytest.raises(ValueError):
+        find_highest_grade([])
     assert count_passing([45, 23, 88, 62], 50) == 2
