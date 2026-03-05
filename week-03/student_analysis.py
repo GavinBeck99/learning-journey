@@ -27,11 +27,11 @@ df["average"] = df["average"].round(1)
 
 df["grade"] = df["average"].apply(get_letter_grade)
 
-print(df)
-
-print("\n--- Student Performance Report ---")
-print(f"Class average: {df["average"].mean():.0f}")
-print(f"Highest average: {df["average"].max():.0f}")
-print(f"Lowest average: {df["average"].min():.0f}")
-passing = len(df[df["average"] >= 50])
-print(f"Students passing: {passing} out of {len(df)}")
+if __name__ == "__main__":
+    print(df)
+    print("\n--- Student Performance Report ---")
+    print(f"Class average: {df["average"].mean():.0f}")
+    print(f"Highest average: {df["average"].max():.0f}")
+    print(f"Lowest average: {df["average"].min():.0f}")
+    passing = len(df[df["average"] >= 50])
+    print(f"Students passing: {passing} out of {len(df)}")
