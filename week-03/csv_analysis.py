@@ -15,3 +15,10 @@ print(f"Highest average: {df['average'].max():.0f}")
 print(f"Lowest average: {df['average'].min():.0f}")
 passing = len(df[df["average"] >= 50])
 print(f"Students passing: {passing} out of {len(df)}")
+print("\n--- Show students at risk ---")
+failed = df[df["grade"] == "F"]
+print(failed [["name", "average", "grade"]])
+
+print("\n--- Students ranked by average ---")
+ranking = df.sort_values("average", ascending = False)
+print(ranking[["name", "average", "grade"]])
