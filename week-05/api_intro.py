@@ -1,8 +1,15 @@
 import requests
 import pandas as pd
+import sys
 
-response = requests.get("https://restcountries.com/v3.1/region/oceania")
-countries = response.json()
+try: 
+    response = requests.get("https://restcountries.com/v3.1/region/oceania")
+    countries = response.json()
+
+except requests.exceptions.RequestException as e:
+    print(f"API request failed: {e}")
+
+    sys.exit(1)
 
 print(f"\nNumber of countries returned: {len(countries)}")
 print(f"\nFirst country: {countries[0]['name']['common']}")
